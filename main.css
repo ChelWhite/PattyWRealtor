@@ -1,4 +1,15 @@
 
+
+.jumbotron {
+  background-image: url("images/jumboImage.jpg");
+ 
+  -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-repeat:space;
+}
+
 .row-content {
     padding: 50px 0;
     min-height: 200px;
@@ -9,19 +20,15 @@ h1 {
     font-family: 'Dancing Script', cursive;
 }
 
-h3, .navbar-brand {
+h3 {
     font-family: 'Dancing Script', cursive;
 font-family: 'Playfair Display', serif;
 }
 
-.navy-blue {
-    background-color: #0b2647;
+hr {
+  background-color:white;
+  width:50%
 }
-
-.card-title {
-  color : #bfb368;
-}
-
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   filter: invert(1);
@@ -35,32 +42,8 @@ font-family: 'Playfair Display', serif;
 }
 /*homepage images*/
 
-#homeImage1
-{
-  position:relative;
-  top: 30px;
-  left: -40px;
-  z-index: 2;
-}
 
-#homeImage2
-{
-  position:relative;
- bottom: -130px;
-  left: -110px;
-  z-index: 1;
-}
 
-#goldorb {
-    position:relative;
-    top: -32px;
-    right: -35px;
-    z-index: 1;
-}
-
-.grayBackground{
-    background-color: #7b7a76;
-}
 
 
 /* unvisited link */
@@ -70,12 +53,16 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: rgb(38, 159, 180);
+  color: rgb(255, 255, 255);
 }
 
 .card {
   border: 0px;
 }
+
+/*.test {
+  max-width: 30% !important;
+}*/
 
 
 /* colors red #950b10 blue #13609f gold #bfb368 dark gray #7b7a76 light gray #e2e2e2*/

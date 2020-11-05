@@ -21,7 +21,7 @@ h1 {
 
 }
 
-h2, h5 {
+h2, h4 {
    font-family: 'Playfair Display', serif;
 }
 
@@ -39,17 +39,25 @@ hr {
   filter: invert(1);
 }
 
-.blog-footer {
-    padding: 2rem 0;
-    color: #999;
-    background-color: #f9f9f9;
- 
-}
 /*homepage images*/
 
 
-
-
+#overlapImage1 {
+ position:absolute; 
+ float:right;  
+ bottom: 0%;
+ left: 10%;
+ z-index: 1;
+}
+#overlapImage2 { 
+  position:relative; 
+  z-index: 2;
+  
+ }
+ 
+#colorBackground{
+  background-image:url("images/backgroundColor.png");
+}
 
 /* unvisited link */
 a:link {
@@ -65,16 +73,28 @@ a:visited {
   border: 0px;
 }
 
+.card-title{
+  background-color: rgba(17, 17, 17, 0.5);
+  padding: 5px;
+}
+
+
 em {
   color:#e8bb5c;
   font-family: 'Allura', cursive;
-
-
 }
 
-/*.test {
-  max-width: 30% !important;
-}*/
+.underline {
+  text-decoration: underline #e8bb5c;
+}
 
+.card-img-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ 
 
 /* colors red #950b10 blue #13609f gold #bfb368 dark gray #7b7a76 light gray #e2e2e2*/

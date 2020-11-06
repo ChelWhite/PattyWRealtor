@@ -30,6 +30,10 @@ h3 {
 font-family: 'Playfair Display', serif;
 }
 
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
 hr {
   background-color:white;
   width:50%
@@ -39,23 +43,13 @@ hr {
   filter: invert(1);
 }
 
+
+
 /*homepage images*/
 
 
-#overlapImage1 {
- position:absolute; 
- float:right;  
- bottom: 0%;
- left: 10%;
- z-index: 1;
-}
-#overlapImage2 { 
-  position:relative; 
-  z-index: 2;
-  
- }
- 
-#colorBackground{
+
+.colorBackground{
   background-image:url("images/backgroundColor.png");
 }
 
@@ -73,14 +67,15 @@ a:visited {
   border: 0px;
 }
 
-.card-title{
+.card-body{
   background-color: rgba(17, 17, 17, 0.5);
-  padding: 5px;
+  padding: 0;
 }
 
 
+
 em {
-  color:#e8bb5c;
+  color:#e8bb5c; 
   font-family: 'Allura', cursive;
 }
 
@@ -88,13 +83,10 @@ em {
   text-decoration: underline #e8bb5c;
 }
 
-.card-img-overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.darkBlue {
+  background-color: #7a8794;
 }
 
- 
+
 
 /* colors red #950b10 blue #13609f gold #bfb368 dark gray #7b7a76 light gray #e2e2e2*/
